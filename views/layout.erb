@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  <%= erb :head %>
+
+  <body>
+	  
+    <%= erb :navi %>
+ 
+    <div class="page-content">
+      <div class="wrapper">
+        <%= yield %>
+      </div>
+    </div>
+    
+    <%= erb :footer %>
+
+  </body>
+</html>
+
